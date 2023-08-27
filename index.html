@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDICINA</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clínica da Mulher</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="doutora" src="img/doutora2.webp">
+        </div>
+        <div class="box-txt">
+            <span>Marque sua Consulta</span>
+            <h2>Saúde plena,<br>Vida serena!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, vel repudiandae? Illo labore illum quae
+                quibusdam, laboriosam excepturi tempore incidunt vero sequi cum dicta enim blanditiis error a! Mollitia,
+                repellat?</p>
+            <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta"
+                class="btn-hero">Marcar Consulta</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde minus perspiciatis? Impedit
+                necessitatibus fuga corporis mollitia saepe distinctio minima. Eos corrupti, ut vero quidem iste qui
+                illum facilis fuga!</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde minus perspiciatis? Impedit
+                necessitatibus fuga corporis mollitia saepe distinctio minima. Eos corrupti, ut vero quidem iste qui
+                illum facilis fuga!</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde minus perspiciatis? Impedit
+                necessitatibus fuga corporis mollitia saepe distinctio minima. Eos corrupti, ut vero quidem iste qui
+                illum facilis fuga!</p>
+        </div>
+        <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta"
+            class="m-top btn-hero">Marcar Consulta</a>
+
+    </section>
+
+    <footer>
+        <p>2023 © Clínica da Mulher. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta">
+            <img width="50" src="img/whats.png">
+        </a>
+    </div>
+
+    <script>
+        //PEGAR O ELEMENTO
+        const doutora = document.getElementById('doutora');
+
+        //EVENTO QUANDO MOUSE ESTIVER POR CIMA DA IMAGEM
+        doutora.addEventListener('mouseover', function () {
+            doutora.src = "img/doutora2.webp";
+        });
+
+        //EVENTO QUANDO MOUSE SAIR DE CIMA DA IMAGEM
+        doutora.addEventListener('mouseout', function () {
+            doutora.src = "img/doutora3.webp";
+        });
+
+    </script>
+
+</body>
+
+</html>
